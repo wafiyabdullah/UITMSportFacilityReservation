@@ -25,7 +25,8 @@ class CustomAuthController extends Controller
         if (Auth::attempt($credentials)) {
             return redirect()->intended('reservation');
         }
-        return redirect("login")->withSuccess('Login details are not valid');
+        
+        return redirect()->route('login')->with('error','Login details are not valid');
     }
     public function registration()
     {
@@ -55,8 +56,9 @@ class CustomAuthController extends Controller
         if (Auth::check()) {
             return view('auth.reservation');
         }
-        return redirect("login")->withSuccess('You are not allowed to access');
+        return redirect()->route('login')->with('error','Need to login first');
     }
+
     public function signOut()
     {
         Session::flush();
@@ -64,5 +66,4 @@ class CustomAuthController extends Controller
         return Redirect('login');
     }
     
-
 }
