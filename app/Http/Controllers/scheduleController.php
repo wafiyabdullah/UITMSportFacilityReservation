@@ -26,6 +26,6 @@ class scheduleController extends Controller
 
             return view('menu.schedule', compact('reservations', 'timeSlots', 'days'));
         }
-        return redirect("login")->withSuccess('You are not allowed to access');
+        return redirect()->route('login')->with('error','Need to login first');
     }
 }

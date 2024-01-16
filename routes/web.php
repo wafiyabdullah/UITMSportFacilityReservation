@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\managereservationController;
 use App\Http\Controllers\scheduleController;
+use App\Http\Controllers\profileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,3 +31,7 @@ Route::get('/schedule',[scheduleController::class, 'show'])->name('menu.schedule
 Route::get('/about', function () {
     return view('menu.about');
 })->name('about');
+
+Route::get('/profile',[profileController::class, 'showProfile'])->name('menu.profile');
+Route::post('/profile',[profileController::class, 'editProfile'])->name('editProfile');
+
