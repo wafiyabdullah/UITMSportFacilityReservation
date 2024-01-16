@@ -13,7 +13,7 @@
                 {{ session('error') }}
             </div>
         @endif
-        <h6 class="text-danger">reservation only aplicable for one week only! <span class="badge bg-danger">Reminder</span></h6><br>
+        <h6 class="text-danger">reservation only applicable for one week only! <span class="badge bg-danger">Reminder</span></h6><br>
         <div class="card">
             <div class="card-header"><strong>Reservation</strong></div>
             <div class="card-body ">

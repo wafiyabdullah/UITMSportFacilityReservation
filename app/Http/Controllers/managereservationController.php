@@ -17,7 +17,7 @@ class managereservationController extends Controller
                 ->get();
             return view('menu.managereservation', compact('reservations'));
         }
-        return redirect("login")->withSuccess('You are not allowed to access');
+        return redirect()->route('login')->with('error','Need to login first');
     }
     public function destroy($id)
     {

@@ -9,7 +9,11 @@
                             {{ session('success') }}
                         </div>
                     @endif
-                    
+                @if(session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
                 <div class="card">
                     <h3 class="card-header text-center">Welcome</h3>
                     <div class="card-body">
@@ -29,15 +33,8 @@
                                 <span class="text-danger">{{ $errors->first('password') }}</span>
                                 @endif
                             </div>
-                            <div class="form-group mb-3">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember"> Remember Me
-                                    </label>
-                                </div>
-                            </div>
                             <div class="d-grid mx-auto">
-                                <button type="submit" class="btn btn-dark btn-block">Signin</button>
+                                <button type="submit" class="btn btn-dark btn-block">Login</button>
                             </div>
                         </form>
                     </div>
