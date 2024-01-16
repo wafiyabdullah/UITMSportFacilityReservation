@@ -2,8 +2,8 @@
 @section('content')
 
 <style>
-    body {
-        background-color: lightblue; /* Set your desired background color */
+    body{
+    background-image: linear-gradient(#8b67ba, #cdbee1); /* Set your desired background color */
     }
 </style>
 

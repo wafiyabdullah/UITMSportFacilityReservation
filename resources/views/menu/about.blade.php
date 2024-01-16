@@ -7,6 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="{{ asset('image/icon.png') }}" type="image/x-icon">
     <style>
+
+        body {
+        background-image: linear-gradient(#8b67ba, #cdbee1); /* Set your desired background color */
+        }
+
         .navbar-light .navbar-nav .nav-link {
             color: white;
             font-weight: bold; 
@@ -71,10 +76,10 @@
                     <img src="{{ asset('image/ikmal.jpg') }}" alt="Ikmal" class="img-fluid" style="width: 200px;"><br><br>
                     <p>Devalapar Backend Dev - <span class="text-primary">Abdullah Wafiy</span></p>
                     <img src="{{ asset('image/wafiy.jpg') }}" alt="Wafiy" class="img-fluid" style="width: 200px;"><br><br>
-                    <p>Devalapar UI/UX Dev - <span class="text-primary">Muhammad Syamil</span></p>
-                    <img src="{{ asset('image/syamil.png') }}" alt="Syamil" class="img-fluid" style="width: 200px;"><br><br>
+                    <p>Devalapar UI/UX Dev - <span class="text-primary">Muhamad Syamil</span></p>
+                    <img src="{{ asset('image/syamil 2.jpg') }}" alt="Syamil" class="img-fluid" style="width: 200px;"><br><br>
                     <p>Devalapar UI/UX Dev - <span class="text-primary">Ahmad Lukman</span></p>
-                    <img src="{{ asset('image/lukman.png') }}" alt="Lukman" class="img-fluid" style="width: 200px;"><br><br>
+                    <img src="{{ asset('image/luk.jpg') }}" alt="Lukman" class="img-fluid" style="width: 200px;"><br><br>
                 </div>
             </div>
         </div>
