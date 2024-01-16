@@ -6,7 +6,7 @@
             <div class="card-header"><strong>Schedule</strong></div>
             <div class="card-body">
                 <!-- Display detailed schedule -->
-                <h4>Detailed Schedule</h4>
+                <h4>Detailed Schedule "test" </h4>
                 <br>
                 <div class="text-center">
                     <table class="table table-bordered">
