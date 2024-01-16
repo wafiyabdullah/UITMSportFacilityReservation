@@ -48,6 +48,9 @@
                         <a class="nav-link" href="{{route('managereservation.show')}}">Manage Reservation</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('menu.profile') }}">Profile</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('signout') }}">Logout</a>
                     </li>
                     
