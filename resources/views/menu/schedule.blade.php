@@ -1,12 +1,19 @@
 @extends('auth.layouts')
 @section('content')
+
+<style>
+    body {
+        background-color: lightblue; /* Set your desired background color */
+    }
+</style>
+
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card">
             <div class="card-header"><strong>Schedule</strong></div>
             <div class="card-body">
                 <!-- Display detailed schedule -->
-                <h4>Detailed Schedule "test" </h4>
+                <h4>Detailed Schedule </h4>
                 <br>
                 <div class="text-center">
                     <table class="table table-bordered">
