@@ -1,7 +1,16 @@
 @extends('auth.layouts')
 @section('content')
+
+<style>
+    body {
+        background-image: url('image/uitm.jpg');
+        background-size: cover; /* Adjust as needed */
+        background-repeat: no-repeat;
+    }
+</style>
+
 <div class="text-center">
-    <h6 class="text-danger">only UITM student account will be validate <span class="badge bg-danger">Reminder</span></h6><br>
+    <h6 class="text-danger">Only UITM student account will be validate <span class="badge bg-danger">Reminder</span></h6><br>
 </div>
 <main class="signup-form">
     <div class="container">

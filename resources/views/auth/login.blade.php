@@ -1,5 +1,14 @@
 @extends('auth.layouts')
 @section('content')
+
+<style>
+    body {
+        background-image: url('image/uitm.jpg');
+        background-size: cover; /* Adjust as needed */
+        background-repeat: no-repeat;
+    }
+</style>
+
 <main class="login-form">
     <div class="cotainer">
         <div class="row justify-content-center">

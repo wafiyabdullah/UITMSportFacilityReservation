@@ -18,6 +18,25 @@
         .navbar-nav .nav-item {
             margin-right: 10px;
         }
+
+        .navbar-nav .nav-item {
+            margin-right: 10px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #8b67ba;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto;
+        }
     </style>
 </head>
 <body>
@@ -62,15 +81,14 @@
     <div class="container mt-5">
         @yield('content')
     </div>
-    
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <p>© 2024 All Rights Reserved by <a href="{{route('about')}}">Devalapar Devs UITM</a></p>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>© 2024 All Rights Reserved by <a href="{{route('about')}}" style="color: #020024;">Devalapar Devs UITM</a></p>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>

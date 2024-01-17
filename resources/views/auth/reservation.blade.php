@@ -1,5 +1,12 @@
 @extends('auth.layouts')
 
+<style>
+    body
+    {
+    background-image: linear-gradient(#8b67ba, #cdbee1); /* Set your desired background color */
+    }
+</style>
+
 @section('content')
 <div class="row justify-content-center">
     <div class="col-md-8">
@@ -13,7 +20,8 @@
                 {{ session('error') }}
             </div>
         @endif
-        <h6 class="text-danger">reservation only applicable for one week only! <span class="badge bg-danger">Reminder</span></h6><br>
+      
+
         <div class="card">
             <div class="card-header"><strong>Reservation</strong></div>
             <div class="card-body ">

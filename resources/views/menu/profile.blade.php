@@ -1,5 +1,11 @@
 @extends('auth.layouts')
 @section('content')
+
+<style>
+    body{
+    background-image: linear-gradient(#8b67ba, #cdbee1); /* Set your desired background color */
+    }
+</style>
 <div class="row justify-content-center">
     <div class="col-md-8">
     @if(session('success'))
