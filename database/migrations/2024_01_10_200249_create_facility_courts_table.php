@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('facility_id')->constrained('facilities');
             $table->foreignId('court_id')->constrained('courts');
-            $table->timestamps();
+            
         });
     }
 
