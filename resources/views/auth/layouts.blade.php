@@ -35,7 +35,7 @@
             color: white;
             padding: 0; 
             text-align: center;
-            margin-top: 13git 5px;
+            margin-top: 135px;
             display: flex;
             align-items: center;
             justify-content: center;
