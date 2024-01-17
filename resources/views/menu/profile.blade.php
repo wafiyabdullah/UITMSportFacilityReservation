@@ -5,6 +5,10 @@
     body{
     background-image: linear-gradient(#8b67ba, #cdbee1); /* Set your desired background color */
     }
+
+    .card {
+        border-width: 3px; /* Adjust the value as needed */
+    }
 </style>
 <div class="row justify-content-center">
     <div class="col-md-8">
@@ -18,7 +22,7 @@
                 {{ session('error') }}
             </div>
         @endif
-        <div class="card">
+        <div class="card mb-3">
             <div class="card-header"><strong>Profile</strong></div>
             <div class="card-body">
             @foreach($profile as $user)

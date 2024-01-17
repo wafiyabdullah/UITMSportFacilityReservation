@@ -33,9 +33,12 @@
         footer {
             background-color: #8b67ba;
             color: white;
-            padding: 10px;
+            padding: 0; 
             text-align: center;
             margin-top: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     </style>
 </head>
