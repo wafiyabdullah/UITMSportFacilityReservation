@@ -7,6 +7,11 @@
         background-size: cover; /* Adjust as needed */
         background-repeat: no-repeat;
     }
+
+    .card {
+        border-width: 3px; /* Adjust the value as needed */
+       
+    }
 </style>
 
 <main class="login-form">

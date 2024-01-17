@@ -23,6 +23,11 @@
         .navbar-nav .nav-item {
             margin-right: 10px;
         }
+
+        .card {
+        border-width: 3px; /* Adjust the value as needed */
+        box-sizing: border-box; /* Include border in the total width and height */
+    }
     </style>
 </head>
 <body>

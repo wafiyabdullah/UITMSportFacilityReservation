@@ -7,6 +7,15 @@
         background-size: cover; /* Adjust as needed */
         background-repeat: no-repeat;
     }
+
+    .card {
+        border-width: 3px; /* Adjust the value as needed */
+        box-sizing: border-box; /* Include border in the total width and height */
+    }
+
+    .text-danger{
+        font-weight: bold;
+    }
 </style>
 
 <div class="text-center">
