@@ -22,7 +22,7 @@
                 {{ session('error') }}
             </div>
         @endif
-        <div class="card">
+        <div class="card mb-3">
             <div class="card-header"><strong>Profile</strong></div>
             <div class="card-body">
             @foreach($profile as $user)
