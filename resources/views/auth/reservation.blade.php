@@ -4,6 +4,11 @@
     body{
     background-image: linear-gradient(#8b67ba, #cdbee1); /* Set your desired background color */
     }
+
+    .card {
+        border-width: 5px; /* Adjust the value as needed */
+        box-sizing: border-box; /* Include border in the total width and height */
+    }
 </style>
 
 @section('content')

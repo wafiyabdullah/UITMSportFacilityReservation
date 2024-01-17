@@ -4,6 +4,11 @@
 <style>
     body{
     background-image: linear-gradient(#8b67ba, #cdbee1); /* Set your desired background color */
+
+    }
+
+    .card {
+        border-width: 3px; /* Adjust the value as needed */
     }
 </style>
 
